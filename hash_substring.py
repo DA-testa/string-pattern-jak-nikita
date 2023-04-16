@@ -1,7 +1,7 @@
 def read_input():
     num = None
     while not num:
-        mode = input("Enter input mode (F/I): ")
+        mode = input()
         
         if mode == "F":
             with open("tests/06", "r") as f:
