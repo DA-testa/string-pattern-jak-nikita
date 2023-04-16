@@ -7,7 +7,7 @@ def read_input():
             with open("tests/06", "r") as f:
                 pat = f.readline()
                 txt = f.readline()
-            return (pat, txt)
+            return (pat.rstrip(), txt.rstrip())
         
         if mode == "I":
             return (input().rstrip(), input().rstrip())
